@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container .media .indexMediaImg{
+    width:14em; 
+    height:10em;
+}
+
+
+
+#facilityReception, #facilitySideroom{
+    width:auto; 
+    height:20em;
+}
+
+#facilityMainroom{
+    width:100%; 
+    height:auto;
+}
+
+
+#googleMaps{
+    width:90%;
+}
+
+#googleMaps iframe{
+    display: block;
+    width:90%;
+}
+
+/*footer{
+    position: fixed;    
+    bottom: 0;    
+} */
+
+
+@media only screen and (min-width: 770px){
+    body #collapsibleNavbar ul{
+        position: absolute;
+        right: 3rem;
+   }
+
+   #googleMaps iframe{
+    display: block;
+    height: 50em;
+    }
+}
+
+@media only screen and (min-width: 1470px){
+    #facilityReception, #facilitySideroom{
+        width:auto; 
+        height:40em;
+    }
+}
