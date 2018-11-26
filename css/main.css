@@ -8,6 +8,16 @@
     height:10em;
 }
 
+.jumbotron-fluid{
+    background-image: url(../images/MainRoom_panorama.jpeg);
+    background-size: cover;
+    background-position: center;    
+}
+
+.jumbotron-fluid .container-fluid{
+    background-color: rgba(40, 167, 69, 0.8);
+    color: white;    
+}
 
 
 #facilityReception, #facilitySideroom{
